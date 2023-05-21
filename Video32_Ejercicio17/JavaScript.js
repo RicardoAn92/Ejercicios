@@ -1,21 +1,25 @@
-const leer = require("prompt-sync")();
+const prompt = require("prompt-sync")();
 
-let num1, num2, resul;
+function calcularResultado() {
+    let num1, num2, resul;
 
-console.log("Ingrese número 1: ");
-num1 = parseInt(leer());
+    console.log("Ingrese número 1: ");
+    num1 = parseInt(prompt());
 
-console.log("Ingrese número 2: ");
-num2 = parseInt(leer());
+    console.log("Ingrese número 2: ");
+    num2 = parseInt(prompt());
 
-if (num1 === num2) {
-   resul = num1 * num2;
-} else {
-   if (num1 > num2) {
-      resul = num1 - num2;
-   } else {
-      resul = num1 + num2;
-   }
+    if (num1 === num2) {
+        resul = num1 * num2;
+    } else {
+        if (num1 > num2) {
+            resul = num1 - num2;
+        } else {
+            resul = num1 + num2;
+        }
+    }
+
+    console.log("El resultado es: " + resul);
 }
 
-console.log("El resultado es: " + resul);
+calcularResultado();
