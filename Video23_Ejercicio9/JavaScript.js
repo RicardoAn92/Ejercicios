@@ -1,11 +1,17 @@
-const pi = 3.14159;
-let radio, area, long;
+const prompt = require("prompt-sync")();
 
-console.log("Digite el radio: ");
-radio = parseFloat(prompt());
+function calcularAreaYLongitud() {
+  const pi = 3.14159;
+  let radio, area, long;
 
-area = pi * radio ** 2;
-long = 2 * pi * radio;
+  console.log("Digite el radio: ");
+  radio = parseFloat(prompt());
 
-console.log("El área es: " + area);
-console.log("La longitud es: " + long);
+  area = pi * radio ** 2;
+  long = 2 * pi * radio;
+
+  console.log("El área es: " + area);
+  console.log("La longitud es: " + long);
+}
+
+calcularAreaYLongitud();
