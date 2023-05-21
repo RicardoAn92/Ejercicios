@@ -1,7 +1,8 @@
 // Leer 2 numeros; si son iguales que los multiplique, 
 // si el primero es mayor que el segundo que los reste 
 // y si no que los sume.
-Algoritmo Video32_Ejercicio17
+
+Función Video32_Ejercicio17()
 	Definir num1,num2,resul Como Entero
 	Escribir 'Ingrese numero 1'
 	Leer num1
@@ -17,4 +18,7 @@ Algoritmo Video32_Ejercicio17
 		FinSi
 	FinSi
 	Escribir 'El resultado es: ',resul
+	
+Algoritmo Video32_Ejercicio17
+	Video32_Ejercicio17()
 FinAlgoritmo
