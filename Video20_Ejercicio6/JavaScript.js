@@ -1,11 +1,15 @@
 const leer = require("prompt-sync")();
 
-let a = 10;
-let b, resultado;
+function calcularResultado() {
+  let a = 10;
+  let b, resultado;
 
-console.log("Digite un número: ");
-b = parseInt(leer());
+  console.log("Digite un número: ");
+  b = parseInt(leer());
 
-resultado = a + b;
+  resultado = a + b;
 
-console.log("El resultado es: " + resultado);
+  console.log("El resultado es: " + resultado);
+}
+
+calcularResultado();
