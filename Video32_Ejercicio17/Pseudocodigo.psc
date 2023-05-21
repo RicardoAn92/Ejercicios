@@ -18,6 +18,7 @@ Función Video32_Ejercicio17()
 		FinSi
 	FinSi
 	Escribir 'El resultado es: ',resul
+FinFunción
 	
 Algoritmo Video32_Ejercicio17
 	Video32_Ejercicio17()
