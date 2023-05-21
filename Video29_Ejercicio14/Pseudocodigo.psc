@@ -10,7 +10,7 @@ Función verificarParidadNumero()
 		SiNo
 			Escribir "Impar"
 		FinSi
-	FinFunción
+FinFunción
 	
 Algoritmo Video29_Ejercicio14
 	verificarParidadNumero()
