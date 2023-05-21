@@ -1,12 +1,16 @@
-const prompt = require("prompt-sync")();
+function sumarNumeros() {
+  const prompt = require("prompt-sync")();
+  let suma = 0;
+  let n;
 
-let suma = 0;
-let n;
-console.log("Digite la cantidad de numeros a sumarse:");
-n = Number(prompt());
+  console.log("Digite la cantidad de números a sumarse:");
+  n = Number(prompt());
 
-for (let i = 1; i <= n; i++) {
-   suma += i;
+  for (let i = 1; i <= n; i++) {
+    suma += i;
+  }
+
+  console.log("La suma es: " + suma);
 }
 
-console.log("La suma es: " + suma);
+sumarNumeros();
