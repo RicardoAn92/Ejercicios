@@ -23,7 +23,7 @@ Función miFuncion()
 	notaFinalTrabajo <- notaTrabajo*0.15
 	notaFinal <- notaParcial+notaExamen+notaTrabajo
 	Escribir 'Su calificacion es: ',notaFinal
-Fin Función
+FinFunción
 
 Algoritmo Video27_Ejercicio13
 	miFuncion()
